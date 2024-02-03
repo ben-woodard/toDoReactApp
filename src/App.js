@@ -1,11 +1,15 @@
 import React from "react";
+import Routes from "./routes";
 import "./App.css";
 import ToDoApp from "./Components/ToDoApp/todoApp";
+
 function App() {
   return (
     <div>
-      <ToDoApp />
+            <Routes />
+    
     </div>
+
   );
 }
 
